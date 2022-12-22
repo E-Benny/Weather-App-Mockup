@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background: url("https://imgur.com/zPhc1.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    border: 1px solid;
+    height: 320px;
+    width: 240px;
+    border-radius: 20px;
+    background: url("https://imgur.com/gcCHXUu.gif");
+    color: #fff;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .day {
+    margin-top: -70px;
+  }
+  
+  h1 {
+    font-size: 34px;
+  }
+  
+  .date {
+    margin-top: 25px;
+  }
+  
+  .image-1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .temp-text {
+    font-size: 24px;
+  }
+  
